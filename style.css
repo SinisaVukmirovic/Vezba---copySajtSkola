@@ -1,0 +1,223 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Playfair Display', serif;
+	font-family: 'Roboto', sans-serif;
+}
+
+div.cover {
+	display: flex;
+	flex-direction: column;
+	padding: 10%;
+	color: white;
+	background-image: url("images/academy-logo-cover.png");
+	background-size: cover;
+	background-position: center center;
+	width: 100%;
+	height: 100vh;
+}
+
+div.cover h1 {
+	font-family: 'Playfair Display Black', serif;
+	font-size: 90px;
+	margin: 0;
+}
+
+div.cover p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	margin: 5px; 
+}
+/*END OF COVER STYLE*/
+
+div.info {
+	display: flex;
+	flex-direction: row;
+}
+
+div.info div.information {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	width: 50%;
+	height: 100vh;
+	padding: 5.5%;
+}
+
+div.icon {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: orange;
+	width: 110px;
+	height: 110px;
+	color: white;
+	border-radius: 50%;
+	padding: 24px 15px;
+}
+
+div.icon h6 {
+	letter-spacing: 5px;
+	margin: 10px;
+}
+
+div.icon span {
+	font-size: 35px;
+	color: white;
+}
+
+div.information p {
+	color: #333;
+}
+
+div.button {
+	display: flex;
+	flex-direction: row;
+	border: 3px solid #0278a4;
+	margin-right: 20px;
+}
+
+div.button:hover {
+	background-color: #03ACEB;
+	transition: .5s;
+}
+
+div.button:hover h5 {
+	color: white;
+}
+
+div.button:hover span {
+	color: white;
+}
+
+div.button div.btn-left {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #0278a4;
+}
+
+div.button div.btn-right {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #0278a4;
+	padding: 16px;
+	border-left: 3px solid #0278a4;
+}
+
+div.bnt-left h5 {
+	font-size: 14px;
+	margin: 15px 50px;
+	color: #0278a4;
+}
+
+div.info div.title {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	width: 50%;
+	height: 100vh;
+	padding: 13%;
+	color: white;
+	background-color: #0278a4;								/*blue color*/
+}
+
+div.info div.title h1 {
+	font-family: 'Playfair Display Black', serif;
+	font-size: 90px;
+	margin: 0;
+}
+				/*END OF INFO SECTION STYLE*/
+
+div.offer {
+	display: flex;
+	flex-direction: row;
+	padding: 5%;
+}
+
+div.offer-table {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	width: 50%;
+	padding-left: 5%;
+}
+
+div.upper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-left: -150px;
+}
+
+div.single-line {
+	display: flex;
+	flex-direction: row;
+	margin: 0;
+	padding: 0;
+}
+
+div.single-line p.line {
+	font-size: 14px;
+	margin: 0 0 20px 20px;
+}
+
+div.upper h3 {
+	font-family: 'Playfair Display', serif;
+	font-size: 50px;
+	font-weight: 900;
+	margin: 15px 0 -15px 0;
+}
+
+div.lower {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	padding: 50px 0 50px 5%;
+}
+
+div.offer-buttons {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin: -50px 0 0 -150px;
+}
+					/*END OF OFFER SECTION STYLE*/
+
+div.pictures {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
+	height: 100vh;
+	flex-wrap: wrap;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+div.pictures div.single-pic {
+	width: 32%;
+	height: auto;
+	margin: 2px;
+	overflow: hidden;
+}
+
+div.pictures img {
+	width: 100%;
+	height: auto;
+	opacity: .8;
+	/*overflow: hidden;*/
+}
+
+div.pictures img:hover {
+	opacity: 1;
+	transform: scale(1.05);
+	transition: .5s;
+}
